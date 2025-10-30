@@ -22,7 +22,7 @@ class _CalculadoraIMCState extends State<CalculadoraIMC> {
 
     if (altura == 0.00) {
       setState(() {
-        resultado = 'Não esqueça de colocar as casas decimais.Ex: 60.1';
+        resultado = '';
       });
       return;
     }
