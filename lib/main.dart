@@ -58,7 +58,7 @@ class _CalculadoraIMCState extends State<CalculadoraIMC> {
               onPressed: calcularIMC,
               child: Text('Calcular'),
             ),
-            SizedBox(height: 30),
+            SizedBox(height: 20),
             Text(
               resultado,
               style: TextStyle(fontSize: 18),
